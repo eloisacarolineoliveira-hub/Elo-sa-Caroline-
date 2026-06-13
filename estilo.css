@@ -1,0 +1,84 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#e8f5e9;
+  text-align:center;
+  transition:0.3s;
+}
+
+/* MODO ESCURO */
+.dark{
+  background:#0b1f14;
+  color:white;
+}
+
+header{
+  background:#2e7d32;
+  color:white;
+  padding:15px;
+}
+
+button{
+  padding:10px;
+  margin:5px;
+  border:none;
+  border-radius:10px;
+  background:#2e7d32;
+  color:white;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#66bb6a;
+}
+
+/* TELAS */
+.tela{
+  display:none;
+  padding:20px;
+}
+
+.tela.ativa{
+  display:block;
+}
+
+/* CAMPO */
+#campo{
+  width:90%;
+  height:200px;
+  margin:auto;
+  background:#145a32;
+  border-radius:10px;
+  position:relative;
+  overflow:hidden;
+}
+
+.arvore{
+  position:absolute;
+  font-size:24px;
+  animation:grow 0.3s;
+}
+
+@keyframes grow{
+  from{transform:scale(0);}
+  to{transform:scale(1);}
+}
+
+/* VERDION */
+#verdion{
+  margin:10px;
+  color:#2e7d32;
+}
+
+/* CARD */
+.card{
+  background:white;
+  padding:15px;
+  margin:10px;
+  border-radius:10px;
+  text-align:left;
+}
+
+.dark .card{
+  background:#1c3a2a;
+}

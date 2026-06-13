@@ -1,0 +1,80 @@
+<div id="app">
+
+  <header>
+    <h1>🌿 Raízes do Futuro 2026</h1>
+    <p>Agro Forte, Futuro Sustentável</p>
+
+    <div>
+      <button onclick="toggleDark()">🌙</button>
+      <button onclick="aumentarFonte()">A+</button>
+      <button onclick="diminuirFonte()">A-</button>
+    </div>
+  </header>
+
+  <div id="verdion">
+    🌱 Verdion: Bem-vinda ao futuro sustentável!
+  </div>
+
+  <!-- JOGO -->
+  <section id="jogo" class="tela ativa">
+
+    <h2>🌳 Plantio Sustentável</h2>
+
+    <p>Pontos: <span id="pontos">0</span></p>
+
+    <div id="campo"></div>
+
+    <button onclick="abrirTela('quiz')">🧠 Ir para o Quiz</button>
+
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quiz" class="tela">
+
+    <h2>🧠 Quiz Agroflorestal</h2>
+
+    <div id="pergunta"></div>
+    <div id="opcoes"></div>
+
+    <p>Score: <span id="score">0</span></p>
+
+  </section>
+
+  <!-- EDUCAÇÃO -->
+  <section id="educacao" class="tela">
+
+    <h2>📚 Mini Aula: Sustentabilidade</h2>
+
+    <div class="card">
+
+      <h3>🌎 Sustentabilidade</h3>
+      <p>Usar recursos naturais com responsabilidade para garantir o futuro.</p>
+
+      <h3>🌳 Agrofloresta</h3>
+      <p>Integra árvores, plantações e biodiversidade em um sistema equilibrado.</p>
+
+      <h3>🚜 Tecnologia no Campo</h3>
+      <p>Ajuda a produzir mais com menos impacto ambiental.</p>
+
+    </div>
+
+    <button onclick="mostrarResultado()">🏆 Ver Resultado Final</button>
+
+  </section>
+
+  <!-- FINAL -->
+  <section id="final" class="tela">
+
+    <h2>🏆 Resultado Final</h2>
+
+    <p id="resultado"></p>
+
+    <div class="card">
+      🌱 Verdion: “Você construiu um futuro sustentável!”
+    </div>
+
+    <h3>Eloísa Caroline</h3>
+
+  </section>
+
+</div>
